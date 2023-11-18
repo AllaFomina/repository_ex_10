@@ -1,0 +1,76 @@
+[info] [35m[Appium][39m Welcome to Appium v1.21.0
+[info] [35m[Appium][39m Non-default server args:
+[info] [35m[Appium][39m   relaxedSecurityEnabled: true
+[info] [35m[Appium][39m   allowInsecure: {
+[info] [35m[Appium][39m   }
+[info] [35m[Appium][39m   denyInsecure: {
+[info] [35m[Appium][39m   }
+[info] [35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:4723[info] [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/sessions[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[GENERIC][39m Calling AppiumDriver.getSessions() with args: []
+[debug] [35m[GENERIC][39m Responding to client with driver.getSessions() result: []
+[info] [35m[HTTP][39m [37m<-- GET /wd/hub/sessions [39m[32m200[39m [90m7 ms - 40[39m
+[info] [35m[HTTP][39m [90m[39m[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[info] [35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/alla/Downloads/Wikipedia.app","deviceName":"iPhone Plus","platformName":"IOS","platformVersion":"14.0","newCommandTimeout":0,"connectHardwareKeyboard":true}}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.createSession() with args: [{"app":"/Users/alla/Downloads/Wikipedia.app","deviceName":"iPhone Plus","platformName":"IOS","platformVersion":"14.0","newCommandTimeout":0,"connectHardwareKeyboard":true},null,null]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1700306736904 (16:25:36 GMT+0500 (Екатеринбург, стандартное время))
+[warn] [35m[Appium][39m DeprecationWarning: 'automationName' capability was not provided. Future versions of Appium will require 'automationName' capability to be set for iOS sessions.
+[info] [35m[Appium][39m Requested iOS support with version >= 10, using 'XCUITest' driver instead of UIAutomation-based driver, since the latter is unsupported on iOS 10 and up.
+[info] [35m[Appium][39m Appium v1.21.0 creating new XCUITestDriver (v3.43.0) session
+[info] [35m[Appium][39m Applying relaxed security to 'XCUITestDriver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[debug] [35m[BaseDriver][39m Creating session with MJSONWP desired capabilities: {
+[debug] [35m[BaseDriver][39m   "app": "/Users/alla/Downloads/Wikipedia.app",
+[debug] [35m[BaseDriver][39m   "deviceName": "iPhone Plus",
+[debug] [35m[BaseDriver][39m   "platformName": "IOS",
+[debug] [35m[BaseDriver][39m   "platformVersion": "14.0",
+[debug] [35m[BaseDriver][39m   "newCommandTimeout": 0,
+[debug] [35m[BaseDriver][39m   "connectHardwareKeyboard": true
+[debug] [35m[BaseDriver][39m }
+[info] [35m[BaseDriver][39m Session created with session id: 9c46b0f3-1192-4580-be55-899061ce2e6d[debug] [35m[XCUITest][39m Current user: 'alla'
+[warn] [35m[Xcode][39m Finding XcodePath by symlink because Error: Command 'xcode-select --print-path' exited with code 2
+[warn] [35m[Xcode][39m Could not find path to Xcode by symlinks located in /var/db/xcode_select_link, or /usr/share/xcode-select/xcode_dir_link
+[error] [35m[XCUITest][39m Could not determine iOS SDK version: Could not find path to Xcode by symlinks located in /var/db/xcode_select_link, or /usr/share/xcode-select/xcode_dir_link
+[error] [35m[XCUITest][39m {}
+[warn] [35m[DevCon Factory][39m Neither device UDID nor local port is set. Did not know how to release the connection
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1700306737502 (16:25:37 GMT+0500 (Екатеринбург, стандартное время))
+[debug] [35m[MJSONWP][39m Encountered internal error running command: Error: Could not determine iOS SDK version: Could not find path to Xcode by symlinks located in /var/db/xcode_select_link, or /usr/share/xcode-select/xcode_dir_link
+[debug] [35m[MJSONWP][39m     at Object.errorAndThrow (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-support/lib/logging.js:94:35)
+[debug] [35m[MJSONWP][39m     at getAndCheckIosSdkVersion (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/lib/utils.js:61:9)
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m616 ms - 294[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[HTTP][39m No route found for /wd/hub/session
+[info] [35m[HTTP][39m [37m<-- DELETE /wd/hub/session [39m[33m404[39m [90m15 ms - 211[39m
+[info] [35m[HTTP][39m [90m[39m[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[info] [35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/alla/Downloads/Wikipedia.app","deviceName":"iPhone Plus","platformName":"IOS","platformVersion":"14.0","newCommandTimeout":0,"connectHardwareKeyboard":true}}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.createSession() with args: [{"app":"/Users/alla/Downloads/Wikipedia.app","deviceName":"iPhone Plus","platformName":"IOS","platformVersion":"14.0","newCommandTimeout":0,"connectHardwareKeyboard":true},null,null]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1700306755900 (16:25:55 GMT+0500 (Екатеринбург, стандартное время))
+[warn] [35m[Appium][39m DeprecationWarning: 'automationName' capability was not provided. Future versions of Appium will require 'automationName' capability to be set for iOS sessions.
+[info] [35m[Appium][39m Requested iOS support with version >= 10, using 'XCUITest' driver instead of UIAutomation-based driver, since the latter is unsupported on iOS 10 and up.
+[info] [35m[Appium][39m Appium v1.21.0 creating new XCUITestDriver (v3.43.0) session
+[info] [35m[Appium][39m Applying relaxed security to 'XCUITestDriver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[debug] [35m[BaseDriver][39m Creating session with MJSONWP desired capabilities: {
+[debug] [35m[BaseDriver][39m   "app": "/Users/alla/Downloads/Wikipedia.app",
+[debug] [35m[BaseDriver][39m   "deviceName": "iPhone Plus",
+[debug] [35m[BaseDriver][39m   "platformName": "IOS",
+[debug] [35m[BaseDriver][39m   "platformVersion": "14.0",
+[debug] [35m[BaseDriver][39m   "newCommandTimeout": 0,
+[debug] [35m[BaseDriver][39m   "connectHardwareKeyboard": true
+[debug] [35m[BaseDriver][39m }
+[info] [35m[BaseDriver][39m Session created with session id: dfb08cd9-0926-4dcc-8c42-1d62c3e66e5f
+[debug] [35m[XCUITest][39m Current user: 'alla'
+[error] [35m[XCUITest][39m Could not determine iOS SDK version: Could not find path to Xcode by symlinks located in /var/db/xcode_select_link, or /usr/share/xcode-select/xcode_dir_link
+[error] [35m[XCUITest][39m {}
+[warn] [35m[DevCon Factory][39m Neither device UDID nor local port is set. Did not know how to release the connection
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1700306755931 (16:25:55 GMT+0500 (Екатеринбург, стандартное время))
+[debug] [35m[MJSONWP][39m Encountered internal error running command: Error: Could not determine iOS SDK version: Could not find path to Xcode by symlinks located in /var/db/xcode_select_link, or /usr/share/xcode-select/xcode_dir_link
+[debug] [35m[MJSONWP][39m     at Object.errorAndThrow (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-support/lib/logging.js:94:35)
+[debug] [35m[MJSONWP][39m     at getAndCheckIosSdkVersion (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/lib/utils.js:61:9)
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m34 ms - 294[39m
+[info] [35m[HTTP][39m [90m[39m
+[info] [35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session[39m
+[info] [35m[HTTP][39m [90m{}[39m
+[debug] [35m[HTTP][39m No route found for /wd/hub/session
+[info] [35m[HTTP][39m [37m<-- DELETE /wd/hub/session [39m[33m404[39m [90m11 ms - 211[39m
+[info] [35m[HTTP][39m [90m[39m
